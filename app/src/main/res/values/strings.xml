@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="Olvidastetucontraseña">Olvidaste tu contraseña?</string>
+    <string name="title_activity_agendatuclase">Agendatuclase</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MyProfe</string>
+    <string name="RegistroTitle">Registro</string>
+    <string name="Quieres_ser_alumno">Quieres ser alumno?</string>
+    <string name="Quieres_ser_profesor">Quieres ser profesor?</string>
+    <string name="Si">Si</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Email">Email</string>
+    <string name="Celular">Celular</string>
+    <string name="Comuna">Comuna</string>
+    <string name="Clave">Clave</string>
+    <string name="Género">Género</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Femenino">Femenino</string>
+    <string name="Fecha">Fecha</string>
+    <string name="Enviar">Enviar</string>
+    <string name="Resetear">Resetear</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="n1">Tus clases agendadas</string>
+    <string name="title_activity_buscar">Busqueda</string>
+    <string name="n2">Buscar</string>
+    <string name="n3">Profesores</string>
+    <string name="n4">Alumnos</string>
+    <string name="n5">Salir</string>
+    <string name="title_activity_lista_profe">ListaProfe</string>
+    <string name="title_activity_prueba">Prueba</string>
+    <string name="title_activity_notificaciones">Notificaciones</string>
+    <string name="Ajustes">Ajustes</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Perfil">Perfil</string>
+    <string name="MyClases">MyClases</string>
+    <string name="Notificaciones">Notificaciones</string>
+    <string name="title_activity_mensajes">Mensajes</string>
+    <string name="Nombre_Profesor">Nombre:</string>
+    <string name="Institucion_Profesor">Institución:</string>
+    <string name="Valoracion_Profesor">Valoración:</string>
+    <string name="Informacion_Perfil_Profesor">Informacion de MyProfe</string>
+    <string name="Enviar_Mensaje">Enviar Mensaje</string>
+    <string name="Foto_de_Perfil">Foto de Perfil</string>
+    <string name="title_activity_perfil_profesor">PerfilProfesor</string>
+    <string name="title_activity_prueba_perfil">PruebaPerfil</string>
+    <string name="title_activity_my_perfil">MyPerfil</string>
+    <string name="Declarar_Horario">Declarar Horario</string>
+    <string name="Declarar_Materia">Declarar Materia</string>
+    <string name="Cambiar_Contraseña">Cambiar Contraseña</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_perfilprofesor">Perfilprofesor</string>
+    <string name="title_activity_menus">Menus</string>
+    <string name="title_activity_aa">aa</string>
+    <string name="title_activity_filtros">Filtros</string>
+
+</resources>

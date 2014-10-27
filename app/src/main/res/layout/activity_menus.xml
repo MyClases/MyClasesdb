@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Botones"
+
+    android:clickable="true"
+    style="@android:style/TextAppearance.Widget.TextView">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ajustes"
+        android:id="@+id/btnDisplayMessage"
+        android:singleLine="true"
+        android:layout_marginTop="81dp"
+        android:clickable="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:longClickable="false"
+        android:width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:enabled="true"
+        style="@android:style/TextAppearance.Widget.TextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Buscar"
+        android:id="@+id/Buscarbutton"
+        android:layout_below="@+id/btnDisplayMessage"
+        android:layout_alignLeft="@+id/btnDisplayMessage"
+        android:layout_alignStart="@+id/btnDisplayMessage"
+        android:width="150dp"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        style="@android:style/TextAppearance.Widget.TextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Perfil"
+        android:id="@+id/Perfilbutton"
+        android:layout_below="@+id/Buscarbutton"
+        android:layout_alignLeft="@+id/Buscarbutton"
+        android:width="150dp"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        style="@android:style/TextAppearance.Widget.TextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MyClases"
+        android:id="@+id/Clasesbutton"
+        android:layout_below="@+id/Perfilbutton"
+        android:layout_alignLeft="@+id/Perfilbutton"
+        android:layout_alignStart="@+id/Perfilbutton"
+        android:width="150dp"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        style="@android:style/TextAppearance.Widget.TextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Notificaciones"
+        android:id="@+id/Notificacionesbutton"
+        android:layout_below="@+id/Clasesbutton"
+        android:layout_alignLeft="@+id/Clasesbutton"
+        android:layout_alignStart="@+id/Clasesbutton"
+        android:width="150dp"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        style="@android:style/TextAppearance.Widget.TextView" />
+
+</RelativeLayout>

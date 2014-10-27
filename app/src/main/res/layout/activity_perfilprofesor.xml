@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.proyectobotones.PerfilProfesor"
+    >
+
+
+    <QuickContactBadge
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/quickContactBadge"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="67dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Nombre_Profesor"
+        android:id="@+id/textView"
+        android:layout_toEndOf="@+id/quickContactBadge"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:singleLine="false"
+        android:layout_alignTop="@+id/quickContactBadge"
+        android:layout_toRightOf="@+id/quickContactBadge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Institucion_Profesor"
+        android:id="@+id/textView2"
+        android:layout_toEndOf="@+id/quickContactBadge"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Valoracion_Profesor"
+        android:id="@+id/textView3"
+        android:layout_toEndOf="@+id/quickContactBadge"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_toEndOf="@+id/textView3"
+        android:numStars="3"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_marginTop="-10dp"
+        android:rating="1"
+        android:layout_alignBottom="@+id/quickContactBadge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Informacion_Perfil_Profesor"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/quickContactBadge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <ScrollView
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="15dp"
+        android:background="#ff94a9d9"
+        android:layout_marginLeft="10dp"
+        android:fillViewport="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Enviar_Mensaje"
+        android:id="@+id/Buscarbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/ratingBar"
+        android:layout_alignStart="@+id/ratingBar" />
+
+</RelativeLayout>
+
